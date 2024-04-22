@@ -66,10 +66,10 @@ body{
   font-size: xx-large;
   text-align: calc(100%);
   color: rgb(7, 7, 122);
+  border: rgb(40, 7, 140) double;
 }
 div {
   background-color: rgb(172, 174, 182);
-  background: #fff url()
 }
 h1 {
   color: blue;

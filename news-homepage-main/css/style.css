@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+:root{
+   --Soft_orange: hsl(35, 77%, 62%);
+   --Soft_red: hsl(5, 85%, 63%);
+   --Off_white: hsl(36, 100%, 99%);
+   --Grayish_blue: hsl(233, 8%, 79%);
+   --Dark_grayish_blue: hsl(236, 13%, 42%);
+   --Very_dark_blue: hsl(240, 100%, 5%);
+   --very_dark_blue_transparent: rgba(0, 0, 25, 0.442);
+   --regular: 400;
+   --bold: 700;
+   --more_bold: 800;
+}
+
+#input{
+    opacity: 0;
+}
+
+.main_wrapper{
+    padding: 1rem;
+}
+
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /*position: fixed;
+    z-index: 1000;*/
+}
+
+.nav_bar{
+    background-color: var(--very_dark_blue_transparent);
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 370vh;
+    transition: ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+.nav_list{
+    list-style: none;
+    position: fixed;
+    background-color: var(--Off_white);
+    top: 0;
+    left:25%;
+    padding: 30% 2rem;
+    width: 100%;
+}
+
+.navitems{
+    text-decoration: none;
+    display: block;
+    color: var(--Very_dark_blue);
+    font-weight: var(--regular);
+    padding-bottom: 2rem;
+}
+
+.menuContainer{
+    display: block;
+    width: 32px;
+    margin-right: 0;
+    margin-left: auto;
+    position: relative;
+}
+
+.menuButton{
+    position: absolute;
+    z-index: 1000;
+}
+
+.hamburger, .hamburger::before, .hamburger::after{
+    display: block;
+    background-color: var(--Very_dark_blue);
+    width: 2rem;
+    position: absolute;
+    z-index: 1000;
+    height: 3px;
+}
+
+.hamburger::before{
+    content: "";
+    top: -6px;
+}
+
+
+.hamburger::after{
+    content: "";
+    top: 6px;
+}
+
+#input:checked{
+    position: absolute;
+    right: 1rem;
+    z-index: 1000;
+}
+
+
+
+#input:checked ~ .menuContainer .hamburger{
+    transform: rotate(0.625turn);
+}
+
+#input:checked ~ .menuContainer .hamburger::before{
+    transform: rotate(90deg) translate(6px);
+}
+
+#input:checked ~ .menuContainer .hamburger::after{
+    opacity: 0;
+}
+#input:checked + .nav_bar{
+    transform: translate(0%);
+    z-index: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .hero-pic{
+    height: 50%;
+}
+
+
+.wrapper .hero-pics img{
+    max-width: 100%
+}
+
+.text .main-text{
+    font-size: 2.5rem;
+    font-family: "Inter" sans-serif;
+    font-weight: var(--more_bold);
+    margin-top: 0.5rem;
+}
+
+.text .subText{
+    font-size: 15px;
+    margin-top: 0.5rem;
+    line-height: 1.3rem;
+}
+
+.text-link{
+    margin-top: 1.5rem;
+}
+
+.text-link .link{
+    padding: 0.5rem 1.5rem;
+    background-color: var(--Soft_red);
+    text-decoration: none;
+    font-size: 1rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    color: var(--Off_white);
+    text-rendering: optimizeLegibility;
+}
+
+.section2{
+    margin-top: 4rem;
+    background-color: var(--Very_dark_blue);
+    color: var(--Off_white);
+}
+
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.features_head{
+    color: var(--Soft_orange);
+    font-weight: var(--bold);
+    font-size: 2rem;
+}
+
+.features{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.features:nth-child(-n+3){
+    border-bottom: 1px solid var(--Off_white);
+    padding-bottom: 1rem;
+}
+
+.features h4{
+    margin-bottom: 0.5rem;
+}
+
+.section3{
+    margin-top: 4rem;
+}
+
+.about{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.web-2{
+    max-width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+a.hover{
+    color: brown;
+}
+
+.info .num{
+    color: var(--Dark_grayish_blue);
+    font-weight: var(--bold);
+    font-size: 1.85rem;
+    margin-bottom: 0.7rem;
+}
+
+.info .title{
+    margin-bottom: 0.7rem;
+    font-weight: var(--more_bold);
+    font-size: 1.2rem;
+    color: var(--Very_dark_blue);
+}
+
+.info .message{
+    line-height: 1.9rem;
+    font-size: 15px;
+}
+
+.attribution{
+    text-align: center;
+}
+
+.idris{
+    text-decoration: none;
+    color: var(--Very_dark_blue);
+    text-transform: uppercase;
+}
