@@ -69,6 +69,8 @@
     padding-bottom: 2rem;
 }
 
+/* Hamburger Menu */
+
 .menuContainer{
     display: block;
     width: 32px;
@@ -126,6 +128,8 @@
     z-index: 500;
     display: flex;
     flex-direction: column;
+
+
 }
 
 .section1{
@@ -233,10 +237,6 @@
     margin-bottom: 1.5rem;
 }
 
-a.hover{
-    color: brown;
-}
-
 .info .num{
     color: var(--Dark_grayish_blue);
     font-weight: var(--bold);
@@ -260,8 +260,12 @@ a.hover{
     text-align: center;
 }
 
-.idris{
+.prop{
     text-decoration: none;
     color: var(--Very_dark_blue);
     text-transform: uppercase;
+}
+
+@media only screen and (max-width:1441px){
+    
 }

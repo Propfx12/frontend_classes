@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+:root{
+    --Soft_orange: hsl(35, 77%, 62%);
+    --Soft_red: hsl(5, 85%, 63%);
+    --Off_white: hsl(36, 100%, 99%);
+    --Grayish_blue: hsl(233, 8%, 79%);
+    --Dark_grayish_blue: hsl(236, 13%, 42%);
+    --Very_dark_blue: hsl(240, 100%, 5%);
+    --very_dark_blue_transparent: rgba(0, 0, 25, 0.442);
+    --regular: 400;
+    --bold: 700;
+    --more_bold: 800;
+ }
+
+.main_header{
+    margin-bottom: 1rem;
+}
+
+ 
+.section1{
+    display:flex ;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info{
+    padding-right: 3rem;
+}
+
+.text{
+    margin-bottom: 1rem;
+}
+
+
+.main_wrapper{
+   margin: 6%;
+}
+
+.wrapper2{
+    background-color: var(--Very_dark_blue);
+    color: #fff;
+}
+
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.navlist{
+    list-style: none;
+    display: inline-block
+    
+}
+
+.navitems{
+    padding-inline: 1rem;
+    text-decoration: none;
+    color: var(--Very_dark_blue);
+}
+
+.web-2{
+    max-width: 98%;
+    align-items: end;
+    text-align: left;
+    
+}
+
+
+
+
+.feature_held1{
+    flex-direction: column;
+    justify-content: center;
+    color: azure;
+    background-color: var(--Very_dark_blue);
+    height: 500px;
+    
+    
+}
+
+.features_head{
+    color: var(--Soft_orange);
+    font-weight: var(--bold);
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.features{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.features:nth-child(-n+3){
+    border-bottom: 1px solid var(--Off_white);
+    padding-bottom: 4rem;
+}
+
+.features h4{
+    margin-bottom: 0.5rem;
+}
+
+
+.text6{
+    flex-direction: row;
+    
+}
+
+
+.heading{
+    font-size: 2rem;
+    font-family: "Inter" sans-serif;
+    font-weight: var(--more_bold);
+    margin-top: 0.5rem;
+    flex-basis: 40%;
+    
+}
+
+.text{
+    padding-top: 1rem;
+}
+
+.text-link{
+    padding-top: 2.1rem;
+}
+
+.link{
+    border: solid;
+    border-color: orangered;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+
+.wrapper3{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.about{
+    display: flex;
+}
+
+.info{
+    padding: 1rem;
+  
+}
+
+.web-3{
+    max-width: 85%;
+}
+
+.num{
+    padding-bottom: 2rem;
+    font-size: large;
+    color: hsl(233, 8%, 79%);
+}
+
+.title{
+    padding-bottom: 10px;
+}
+
+.attribution{
+    margin: 3rem;
+}
+
+.attribution p{
+    text-align: center;
+}
+
+.prop{
+    text-decoration: none;
+}
