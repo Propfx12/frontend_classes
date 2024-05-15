@@ -26,7 +26,7 @@
 
  
 .section1{
-    display:flex ;
+   display:flex ;
 }
 
 .hero{
@@ -43,6 +43,12 @@
     margin-bottom: 1rem;
 }
 
+.web-2{
+    display: block;
+}
+.web-1{
+    display: none;
+}
 
 .main_wrapper{
    margin: 6%;
@@ -81,6 +87,10 @@
     
 }
 
+.web-3{
+    height: 70%;
+    width: 6rem;
+}
 
 
 
@@ -135,7 +145,7 @@
 }
 
 .text{
-    padding-top: 1rem;
+    padding-bottom: 9rem;
 }
 
 .text-link{
@@ -160,23 +170,28 @@
     margin-top: 5rem;
 }
 
+.info{
+    padding-bottom: 3rem;
+    padding-left: 10px;
+}
+
 .about{
     display: flex;
 }
 
-.info{
-    padding: 1rem;
-  
-}
 
 .web-3{
-    max-width: 85%;
+    max-width: %;
 }
 
 .num{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: large;
     color: hsl(233, 8%, 79%);
+}
+
+.message{
+    font-size: small;
 }
 
 .title{
@@ -193,4 +208,35 @@
 
 .prop{
     text-decoration: none;
+}
+
+@media only screen and (max-width:480px){
+    .hero{
+        display: block;
+        justify-content: space-between; 
+    }
+
+    .section1{
+        display:block ;
+     }
+
+     .wrapper3{
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .web-2{
+        display: none;
+    }
+    .web-1{
+        display: block;
+    }
+
+    .main_wrapper{
+        margin: 10%;
+     }
+     
+    
+
+
 }
