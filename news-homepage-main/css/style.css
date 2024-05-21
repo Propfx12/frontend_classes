@@ -25,7 +25,7 @@
 }
 
 .main_wrapper{
-    padding: 1rem;
+    margin: 6%;*/
 }
 
 .main_header{
@@ -132,12 +132,27 @@
 
 }
 
-.section1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.heading{
+    font-size: 28px;
+    font-family: "Inter" sans-serif;
+    font-weight: var(--more_bold);
+    margin-top: 0.5rem;
+    flex-basis: 40%;
 }
 
+.text{
+    padding-top: 1rem;
+    font-size: 12px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.web-3{
+    display: none;
+}
 
 .wrapper{
     display: flex;
@@ -168,6 +183,7 @@
 
 .text-link{
     margin-top: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .text-link .link{
@@ -181,8 +197,7 @@
     text-rendering: optimizeLegibility;
 }
 
-.section2{
-    margin-top: 4rem;
+.prosper{
     background-color: var(--Very_dark_blue);
     color: var(--Off_white);
 }
@@ -229,6 +244,11 @@
     max-width: 100%;
 }
 
+.web-4{
+   max-width: 100px;
+}
+
+
 .info{
     display: flex;
     flex-direction: column;
@@ -240,20 +260,20 @@
 .info .num{
     color: var(--Dark_grayish_blue);
     font-weight: var(--bold);
-    font-size: 1.85rem;
+    font-size: 1rem;
     margin-bottom: 0.7rem;
 }
 
 .info .title{
-    margin-bottom: 0.7rem;
+    padding-top: 10px;
     font-weight: var(--more_bold);
-    font-size: 1.2rem;
+    font-size: 15px;
     color: var(--Very_dark_blue);
 }
 
 .info .message{
-    line-height: 1.9rem;
-    font-size: 15px;
+    font-size: 12px;
+    margin-bottom: -22px;
 }
 
 .attribution{
@@ -266,6 +286,184 @@
     text-transform: uppercase;
 }
 
-@media only screen and (max-width:1441px){
+/* Destop View Layout*/
+
+@media only screen and (min-width:738px){
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.logo{
+    top: 30%;
+}
+
+
+
+.features{
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features:nth-child(-n+3){
+    border-bottom: 1px solid var(--Off_white);
+    padding-bottom: 2rem;
+}
+
+.features h4{
+    margin-bottom: 0.5rem;
+}
+
+
+.nav_bar{
+    top: 30%;
+    left: 45%;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: transparent;
     
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    padding: 0 2rem;
+    position: absolute;
+    right: 0;
+    position: absolute;
+    
+   
+}
+
+.navitems{
+    text-decoration: none;
+    display: block;
+    color: var(--Very_dark_blue);
+    font-weight: var(--regular);
+    padding-bottom: 2rem;
+    padding-left: 40px;
+}
+
+
+.menuContainer{
+    display: none;
+}
+
+
+
+.hamburger,.hamburger::after,.hamburger::before{
+    display: none;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.wrapper3{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.web-2{
+    display: none;
+}
+
+.web-3{
+    display: block;
+}
+
+
+.main_wrapper{
+    margin: 6%;
+ }
+
+
+ .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info .num{
+    color: var(--Dark_grayish_blue);
+    font-weight: var(--bold);
+    font-size: 1rem;
+    
+}
+
+.info .title{
+    font-weight: var(--more_bold);
+    font-size: 1.3rem;
+    color: var(--Very_dark_blue);
+    margin-top: -1rem;
+    margin-bottom: 10px;
+}
+
+.info .message{
+    font-size: 15px;
+    margin-bottom: -22px;
+}
+
+
+.heading{
+    font-size: 35px;
+    font-family: "Inter" sans-serif;
+    font-weight: var(--more_bold);
+    margin-top: 0.5rem;
+    flex-basis: 40%;
+}
+
+.text{
+    padding-top: 2rem;
+    font-size: 18px;
+}
+.prosper{
+    background-color: var(--Very_dark_blue);
+    color: var(--Off_white);
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
