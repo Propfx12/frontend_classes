@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Montserrat", sans-serif;
+}
+
+:root{
+    
+   /*Primary*/
+
+--Green:  hsl(75, 94%, 57%);
+
+  /*Neutral*/
+
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%);
+}
+
+body{
+  background: #aaa6a6;
+}
+
+.main_hearder{
+  margin: 6%;
+}
+
+
+.main-text{
+  background-color:var(--White);
+}
+
+
+.image{
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ 
+}
+.main-text{
+  padding: 10px;
+}
+
+.div{
+display: flex;
+justify-content: space-around;
+padding: 10px;
+}
+.div p{
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.div h1{
+  padding-right: 12px;
+  color: green;
+  
+}
+
+.h1{
+  font-size: 30px;
+  padding-left: 6px;
+}
+.p1{
+  padding: 10px;
+  font-size:15px ;
+  color: var(--Dark-Grey);
+}
+
+.image2{
+  display: none;
+}
+
+.p2{
+  padding: 10px;
+  font-size:15px ;
+  color: var(--Dark-Grey);
+}
+
+ button{
+    position: relative;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: bold;
+    border: 2px solid green;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: green;
+  }
+
+@media only screen and (min-width:738px){
+  .main_hearder{
+    display: flex;
+    margin: 6%;
+    width: 50%;
+   /* background-color: var(--White);
+    border-radius: 10px;*/
+    justify-content: center;
+    align-items: center;
+    padding-left: 30rem;
+  }
+
+  .image{
+    display: none;
+  }
+
+  .image2{
+    display: block;
+    max-width: 120%;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .p2{
+    padding: 10px;
+    font-size:15px ;
+    color: var(--Dark-Grey);
+  }
+
+.main-text{
+  background-color:var(--White);
+  position: relative;
+  height: 56vh;
+  width: 130%;
+}
+
+   button{
+    position: relative;
+    width: 260px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid green;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: green;
+  }
+
+  .div{
+    padding-top: 2rem;
+  }
+
+  .p2{
+    padding-top: 2rem;
+  }
+
+  
+}

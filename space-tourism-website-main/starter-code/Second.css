@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body{
+    background-image: url(./assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    margin: 6%;
+}
+
+.navlist{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+.navitems{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navitems::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navitems:hover::after{
+    width: 100%;
+}
+
+.first-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a:hover{
+    color: #ff004f;
+}
+
+.section1{
+    padding-top: 10rem;
+}
+
+.navlist1{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+.navitems1{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navitems1::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navitems1:hover::after{
+    width: 100%;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+a:hover{
+    color: #ff004f;
+}
+
+.h1{
+    color: #fff;
+    position: relative;
+    bottom: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sec2{
+    display: flex;
+    color: #fff;
+    padding-left: 15rem;
+}
+
+.nav_bar1{
+    padding-top: 8rem;
+    padding-right: 15rem;
+}
+
+.hh1{
+    padding-bottom: 4rem;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.display{
+    display: block;
+    padding: 5rem;
+    justify-content: space-between;
+}
+
+.sec3{
+    display: block;
+    padding-top: 4rem;
+}
+
+.Est{
+    position: relative;
+    padding-left: 15rem;
+    bottom: 3rem;
+}

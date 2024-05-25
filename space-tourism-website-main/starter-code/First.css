@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body{
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    margin: 6%;
+}
+
+.navlist{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+.navitems{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navitems::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navitems:hover::after{
+    width: 100%;
+}
+
+.first-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a:hover{
+    color: #fff;
+}
+
+
+.section1{
+    padding-top: 15rem;
+    color: #fff;
+}
+
+.text1 h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text1 h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.text2{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    position: relative;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: bold;
+    border: 4px solid #fff;
+    background-color: var(--grey);
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+
+  .text3{
+    font-size: 20px;
+  }
+
