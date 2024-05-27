@@ -1,0 +1,61 @@
+import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body{
+    background-image: url(./assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.navlist{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+.navitems{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navitems::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navitems:hover::after{
+    width: 100%;
+}
+
+.first-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a:hover{
+    color: #ff004f;
+}

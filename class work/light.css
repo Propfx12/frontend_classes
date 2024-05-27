@@ -110,12 +110,20 @@ label:before{
     padding-left: 10px;
     font-size: x-small;
     padding-top: 4px;
+<<<<<<< HEAD
     color: var(--dark_Grayish_Blue);
+=======
+    color: var(--desaturated_Blue);
+>>>>>>> 992df703a221872e2727f2b613e93d7f3baecf46
 }
 
 .ptext{
     font-size: small;
+<<<<<<< HEAD
     color: var(--dark_Grayish_Blue);
+=======
+    color: var(--desaturated_Blue);
+>>>>>>> 992df703a221872e2727f2b613e93d7f3baecf46
 }
 
 .img2{
@@ -151,7 +159,10 @@ label:before{
 .sectext{
     font-size: 3rem;
     padding-top: 1rem;
+<<<<<<< HEAD
     color: black;
+=======
+>>>>>>> 992df703a221872e2727f2b613e93d7f3baecf46
 }
 
 
@@ -173,7 +184,11 @@ label:before{
     margin-bottom: 2px;
     position: relative;
     /*border: 4px solid;*/
+<<<<<<< HEAD
     background-color:var(--light_Grayish_Blue);
+=======
+    background-color:var(--dark_Desaturated_Blue);
+>>>>>>> 992df703a221872e2727f2b613e93d7f3baecf46
     height: 12rem;
     padding-top: 2rem;
     border-radius: 3px;
@@ -199,7 +214,11 @@ label:before{
     margin-bottom: 2px;
     position: relative;
     /*border: 4px solid;*/
+<<<<<<< HEAD
     background-color:var(--light_Grayish_Blue);
+=======
+    background-color:var(--dark_Desaturated_Blue);
+>>>>>>> 992df703a221872e2727f2b613e93d7f3baecf46
     height: 12rem;
     padding-top: 2rem;
     border-radius: 3px;
@@ -226,7 +245,11 @@ label:before{
     margin-bottom: 2px;
     position: relative;
     /*border: 4px solid;*/
+<<<<<<< HEAD
     background-color:var(--light_Grayish_Blue);
+=======
+    background-color:var(--dark_Desaturated_Blue);
+>>>>>>> 992df703a221872e2727f2b613e93d7f3baecf46
     height: 12rem;
     padding-top: 2rem;
     border-radius: 3px;
@@ -253,6 +276,9 @@ label:before{
     position: relative;
     /*border: 4px solid;*/
     background-color:var(--light_Grayish_Blue);
+
+    background-color:var(--dark_Desaturated_Blue);
+
     height: 12rem;
     padding-top: 2rem;
     border-radius: 3px;
