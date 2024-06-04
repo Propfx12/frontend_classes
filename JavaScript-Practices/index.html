@@ -6,8 +6,19 @@
 <button type="button" onclick="myFunction()" >Try it</button>
 
 <p id="demo">5 + 6.</p>
-
-<button type="button" onclick='document.getElementById("demo").innerHTML = "11"'>Click Me to see the answer</button>
+<p id="tree"> </p>
+<p id="tree4"> </p>
+<p id="tree3"> </p>
+<p id="Date"></p>
+<p id="work"></p>
+<p id="dis"></p>
+<p id="v"></p>
+<p id="string"></p>
+<p id="Json"></p>
+<p id="cost"></p>
+<button type="button" onclick=" this.innerHTML = Date()">Click me to check what the time is</button>
+<br>
+<button type="button" onclick="document.getElementsById('Date').innerHTML = displaydate()">Clcik thrw</button>
 <h1 id="dem">Jonathan</h1>
 
   <button type="button" onclick= "myFunction()"> Click me</button>
@@ -15,12 +26,76 @@
   <h1>5 + 6</h1>
   <button type="button" onclick="document.write(5 + 6)">Click to see the answer</button>
 
+  <button onclick="document.getElementById('demo').innerHTML= Date()">The time is?</button>
+  <br>
+  <br>
+  <br>
+  <button onclick="document.getElementById('work').innerHTML = Date()" style="color: blue;" >Am here to win </button>
+  <br>
+  <br>
+  <br>
+  <button onclick="this.innerHTML = Date()" style="color: blue;" >Am here to win </button>
+
+  <button onclick="displayDate()">The time is me</button>
+  
+ 
   <script src="./java.js"></script>
 
   <form action="/action_page.php" method="post">
-    <input type="text" name="fname" required>
+    <input type="text" name="fname" required >
     <input type="submit" value="Submit">
   </form>
+<br>
+<br>
+  <form id="myForm" onsubmit="return validateAge()">
+           <label for="First-Name">First-Name</label>
+           <input type="text" id="First-Name" required>
+           <br>
+           <br>
+           <label for="Age">Age</label>
+           <input type="type" id="Age" required name="Age" autocomplete="bday-day">
+           <br>
+           <br>
+           <input type="submit" value="submit">
+  </form>
+<h1 id="riri"> </h1>
+
+  <script>
+    function validateAge() {
+      // Get the value of the age input field
+      var age = document.getElementById("Age").value;
+    
+      // Use ternary operator to check if age is below 12
+      // If age is below 12, return false to prevent form submission
+      // Otherwise, return true to allow form submission
+      return (age < 18) ? (alert("Age must be 18 or above!"), false) : true;
+
+
+     
+
+    }
+    </script>
+
+  <br>
+  <br>
+  <!--<form id="myForm" onsubmit="return validateAge()">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <script>
+  function validateAge() {
+    // Get the value of the age input field
+    var age = document.getElementById("age").value;
+  
+    // Use ternary operator to check if age is below 12
+    // If age is below 12, return false to prevent form submission
+    // Otherwise, return true to allow form submission
+    return (age < 12) ? (alert("Age must be 12 or above!"), false) : true;
+  }
+  </script>-->
 
 </body>
 </html>
